@@ -34,6 +34,7 @@ Vue.prototype.$msgbox = MessageBox;
 Vue.prototype.$alert = MessageBox.alert;
 Vue.prototype.$message = Message;
 //关闭生产提示
+
 Vue.config.productionTip = false
 
 new Vue({
